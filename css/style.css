@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  /* ancho */
+  width: auto;
+  /* altura */
+  height: 80px;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+/* Estilos para la navegación */
+nav ul {
+  list-style: none; /* Elimina los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Hace que los elementos sean flexibles y en línea */
+}
+/* Estilos para los elementos de la lista */
+nav ul li {
+  margin-right: 100px; /* Espaciado entre los elementos */
+}
+
+nav ul li a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #333;
+  padding: 10px; /* Espaciado interno */
+}
+
+nav ul li a:hover {
+  color: #ec0044;
+  border-bottom: 2px solid #ec0044;
+}
+/* Contenedor principal */
+.contimageninicio {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background-image: url("https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white; /* Texto en blanco */
+  text-align: left;
+  padding: 40px 30px;
+}
+
+.imagen-texto {
+  position: relative;
+  z-index: 2; /* Asegura que el texto esté sobre la imagen */
+  max-width: 800px; /* Ajusta el ancho máximo del contenedor de texto */
+  padding: 0px; /* Padding interno del contenedor de texto */
+}
+
+.imagen-texto h1 {
+  margin: 10px 0; /* Margen entre los textos */
+  font-size: 3em; /* Tamaño del texto del h1 */
+  font-weight: bold; /* Negrita */
+}
+
+.imagen-texto p {
+  margin: 10px 0; /* Margen entre los textos */
+  font-size: 1.5em; /* Tamaño del texto del párrafo */
+  color: #555559;
+}
+
+/* Sobrescribir el color activo del enlace */
+.nav-link.active {
+  background-color: #ec0044 !important;
+  color: #ffffff !important;
+}
+
+/* Sobrescribir el color de los enlaces no activos */
+.nav-link {
+  color: #555559 !important;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-item {
+  padding-top: 20px !important;
+}
+.reviews {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.clearfix{
+    padding: 40px 40px 40px 40px;
+    background-color: #a4a4a5;
+}
+.comp{
+  margin: 40px 0 40px 0;
+}
+.logofooter{
+    /* ancho */
+    width: auto;
+    /* altura */
+    height: 100px;
+    padding-left: 40px;
+}
+.container2{
+  background-color: #73243c;
+  border-top: 5px !important;
+  color: #ffffff !important;
+  
+}
+.text-body-secondary{
+  padding-left: 30px;
+}
