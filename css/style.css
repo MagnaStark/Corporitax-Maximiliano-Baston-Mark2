@@ -25,7 +25,24 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex; /* Hace que los elementos sean flexibles y en línea */
+
 }
+
+.navbar-toggler{
+  margin-left: 100px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand.abs
+      {
+          position: absolute;
+          width: auto;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+      }
+  }
+
 /* Estilos para los elementos de la lista */
 nav ul li {
   margin-right: 100px; /* Espaciado entre los elementos */
@@ -41,6 +58,8 @@ nav ul li a:hover {
   color: #ec0044;
   border-bottom: 2px solid #ec0044;
 }
+
+
 /* Contenedor principal */
 .contimageninicio {
   position: relative;
@@ -77,21 +96,14 @@ nav ul li a:hover {
 }
 
 /* Sobrescribir el color activo del enlace */
-.nav-link.active {
+.active {
   background-color: #ec0044 !important;
   color: #ffffff !important;
-}
-
-/* Sobrescribir el color de los enlaces no activos */
-.nav-link {
-  color: #555559 !important;
-}
-
-.nav-link:hover {
-  color: #ffffff;
+  border-radius: 5px !important;
 }
 
 .nav-item {
+  padding-bottom: 20px !important;
   padding-top: 20px !important;
 }
 .reviews {
